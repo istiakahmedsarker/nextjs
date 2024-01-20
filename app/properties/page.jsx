@@ -1,11 +1,11 @@
 'use client';
 
 import Link from 'next/link';
-import getAllCard from '../../../lib/getAllCard';
+import getAllCard from '../../lib/getAllCard';
 import { useEffect, useState } from 'react';
 // import { CiSearch } from 'react-icons/ci';
-import PropertiesCard from '@/Components/PropertiesCard/PropertiesCard';
-import PropertiesCardList from '@/Components/PropertiesCard/PropertiesCardList';
+import PropertiesCard from '../../src/Components/PropertiesCard/PropertiesCard';
+import PropertiesCardList from '../../src/Components/PropertiesCard/PropertiesCardList';
 
 export default function BuildingCard({ initialCards = [] }) {
   const [searchQuery, setSearchQuery] = useState('');

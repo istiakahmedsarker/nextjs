@@ -1,4 +1,4 @@
-import BlogCard from '@/Components/BlogCard/BlogCard';
+import BlogCard from '../../src/Components/BlogCard/BlogCard';
 import BlogPost from '@/Components/BlogPost/BlogPost';
 import React from 'react';
 

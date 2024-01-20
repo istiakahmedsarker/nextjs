@@ -1,4 +1,4 @@
-import BlogDetails from '@/Components/BlogDetails/page';
+import BlogDetails from '../../../src/Components/BlogDetails/page';
 import React from 'react';
 
 const BlogsDetailsPage = async({ params }) => {
